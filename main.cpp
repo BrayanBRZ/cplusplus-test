@@ -1,20 +1,8 @@
 #include <iostream>
-#include <string>
-
-void alterNum(int &x)
-{
-    x = 10;
-}
 
 int main()
 {
-
-    std::string myStrint = "test";
-    std::cout << myStrint;
-
-    int myNum = 20;
-    std::cout << myNum;
-
-    alterNum(myNum);
-    std::cout << myNum;
+    std::cout << "Repositorio de estudo de C++\n";
+    std::cout << "Use `make list` para ver os exemplos disponiveis.\n";
+    std::cout << "Use `make run EXAMPLE=01-fundamentos` para executar um modulo.\n";
 }
