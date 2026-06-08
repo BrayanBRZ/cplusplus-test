@@ -87,9 +87,7 @@ Regra prática:
 
 ## `std::size_t`
 
-O nome correto é `std::size_t`, não `t_size`.
-
-Ele não é um tipo primitivo da linguagem. É um tipo definido pela biblioteca padrão, disponível em headers como `<cstddef>`, `<string>`, `<vector>` e outros.
+É um tipo definido pela biblioteca padrão, disponível em headers como `<cstddef>`, `<string>`, `<vector>` e outros.
 
 `std::size_t` é um tipo inteiro sem sinal usado para representar tamanhos de objetos e containers.
 
